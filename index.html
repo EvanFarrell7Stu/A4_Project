@@ -1,12 +1,111 @@
 <!DOCTYPE html>
-<!-- This is the main html file of face web page -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> The Magic Store </title>
+    <title>iPhone Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>iMagic Store</h1>
+        <p>The best place to find the greatest iPhones!</p>
+    </header>
+    <main>
+        <section id="product-list">
+            <article class="product">
+                <img src="images/iphone16pro copy.jpg" alt="iPhone 16 Pro">
+                <div class="details">
+                    <h2>iPhone 16 Pro</h2>
+                    <ul>
+                        <li>Display: 6.3" Super Retina XDR OLED</li>
+                        <li>Camera: 48 MP Main, 48 MP Ultra-Wide, 12 MP Telephoto (5x optical zoom)</li>
+                        <li>Chip: A18 Pro chip with advanced AI and gaming</li>
+                        <li>Battery: Up to 23 hours of video playback</li>
+                    </ul>
+                    <p class="price">Price: $1099</p>
+                    <button onclick="addToCart('iPhone 16 Pro')">Add to Cart</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="images/iphone16 copy.jpg" alt="iPhone 16">
+                <div class="details">
+                    <h2>iPhone 16</h2>
+                    <ul>
+                        <li>Display: 6.1" Super Retina XDR OLED </li>
+                        <li>Camera: 48 MP Fusion Camera with 2x Telephoto Zoom and 12 MP Ultra Wide with Macro Photography</li>
+                        <li>Chip: A18 Bionic Chip (3nm) with 16-core Neural Engine</li>
+                        <li>Battery: Up to 22 hours of video playback</li>
+                    </ul>
+                    <p class="price">Price: $999</p>
+                    <button onclick="addToCart('iPhone 16')">Add to Cart</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="images/iphone15.jpg" alt="iPhone 15">
+                <div class="details">
+                    <h2>iPhone 15</h2>
+                    <ul>
+                        <li>Display: 6.1" Super Retina XDR OLED, 1170 x 2532 resolution, up to 2000 nits peak brightness</li>
+                        <li>Camera: 48 MP Main (f/1.6), 12 MP Ultra-Wide (f/2.4), 12 MP Front Camera</li>
+                        <li>Chip: A16 Bionic Chip</li>
+                        <li>Battery: Video playback up to 20 hours</li>
+                    </ul>
+                    <p class="price">Price: $599</p>
+                    <button onclick="addToCart('iPhone 15')">Add to Cart</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="images/iphone15plus.jpg" alt="iPhone 15 Plus">
+                <div class="details">
+                    <h2>iPhone 15 Plus</h2>
+                    <ul>
+                        <li>Display: 6.7-inch Super Retina XDR Display</li>
+                        <li>Camera: 48 MP Main Camera + 12 MP Ultra-Wide + Telephoto lens with 2x optical zoom</li>
+                        <li>Chip: A16 Bionic Chip</li>
+                        <li>Battery: Up to 26 hours of video playback</li>
+                        <li>Charging: USB-C charging, MagSafe wireless</li>
+                    </ul>
+                    <p class="price">Price: $699</p>
+                    <button onclick="addToCart('iPhone 15')">Add to Cart</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="images/iphone14.jpg" alt="iPhone 14">
+                <div class="details">
+                    <h2>iPhone 14</h2>
+                    <ul>
+                        <li>Display: 6.1-inch Super Retina XDR Display</li>
+                        <li>Camera: 12 MP Dual-Camera System (Main + Ultra-Wide)</li>
+                        <li>Chip: A15 Bionic Chip</li>
+                        <li>Battery: Up to 20 hours of video playback</li>
+                        <li>Charging: Lightning charging, MagSafe wireless charging (up to 15W)</li>
+                        <li>Storage Options: 128GB, 256GB, 512GB</li>
+                    </ul>
+                    <p class="price">Price: $399</p>
+                    <button onclick="addToCart('iPhone 14')">Add to Cart</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="images/iphone14pro.jpg" alt="iPhone 14 Pro">
+                <div class="details">
+                    <h2>iPhone 14 Pro</h2>
+                    <ul>
+                        <li>Display: 6.1-inch Super Retina XDR Display with ProMotion and Always-On</li>
+                        <li>Camera: 48 MP Main Camera + 12 MP Ultra-Wide + 12 MP Telephoto with 3x optical zoom</li>
+                        <li>Chip: A16 Bionic Chip</li>
+                        <li>Battery: Up to 23 hours of video playback</li>
+                        <li>Storage Options: 128GB, 256GB, 512GB, 1TB</li>
+                    </ul>
+                    <p class="price">Price: $499</p>
+                    <button onclick="addToCart('iPhone 14 Pro')">Add to Cart</button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 iMagic Store. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
