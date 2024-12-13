@@ -5,6 +5,9 @@ body{
     margin: 0;
   }
   .main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
       background: black;
       color: white; 
       font-family: Arial, sans-serif;
@@ -13,24 +16,6 @@ body{
       text-decoration: none; 
       padding: 20px;
       font-weight: bold;
-  }
-  
-  .contact {
-      background-color: linear-gradient(to bottom, lightslategrey, black); 
-      color: white; 
-      font-family: Arial, sans-serif;
-      font-size: 20px; 
-      text-align: right; 
-      text-decoration: none; 
-      padding: 5px;
-      font-weight: lighter;
-  }
-  
-  .contact a {
-      color: white; 
-      font-family: Arial, sans-serif;
-      font-size: 20px; 
-      text-decoration: none; 
   }
   
   nav {
@@ -45,7 +30,7 @@ body{
   
   .menu li {
       list-style: none;
-      margin: 0 15px;
+      margin:  15px;
   }
   
   .menu a {
@@ -58,7 +43,7 @@ body{
   color: yellow;
   }
   
-  
+
   .image-container {
   display: flex;
   gap: 20px; 
@@ -93,4 +78,25 @@ body{
   color: white; 
   font-weight: lighter;
   padding: 0;
+  }
+
+  .bttn{
+    background-color: #F2EBE3;
+    color: #333;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-color: #333;
+    border-radius: 10px;
+  }
+
+  table{
+    text-align: left;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    background-color: lightblue;
+    border-color: yellow ;
   }

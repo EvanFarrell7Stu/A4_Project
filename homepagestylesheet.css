@@ -16,15 +16,18 @@ body{
 }
 
 .contact {
-    background-color: linear-gradient(to bottom, lightslategrey, black); 
+    background: linear-gradient(to bottom, gray, black); 
     color: white; 
     font-family: Arial, sans-serif;
     font-size: 20px; 
     text-align: right; 
     text-decoration: none; 
-    padding: 5px;
+    padding: 10px;
     font-weight: lighter;
+    border: 3;
+    margin-top: 10px;
 }
+
 
 .contact a {
     color: white; 

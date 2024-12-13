@@ -9,9 +9,12 @@
   </head>
   <body>
     
-   <header class="main-header">PHONES</header>
+   <header class="main-header">
+    <p>PHONES</p>
+   </header>
 
 
+  
 <nav>
     <ul class="menu">
         <li> 
@@ -27,51 +30,131 @@
             <a href="project.html" title="Samsung">Samsung</a>
         </li>
         <li>
-            <a href="#Contact" title="Contact">Contact</a>
+            <a href="homepage.html#Contact" title="Contact">Contact</a>
         </li>
+        <li>                                    </li>
+        
+        <li>
+        <a href="Cart.html">Cart(<span id="NumCart">0</span>) Total(€<span id="Total">0</span>)</a>
+        </li>
+
     </ul>
+
 
 
   </nav>
   
     <div class="image-container">
      
-        <a><img src="" alt="Pixel 8 Pro" style="height:  300px; width: auto;">
-            <p><button  onClick="stock1()">Check stock</button></p>
-            <p>  <span style=color:green id="stock1" > </span></p>
+        <a><img id="p8p" src="pixel-8-pro.avif" alt="Pixel 8 Pro" title="Pixel 8 Pro" style="height:  300px; width: auto;">
+          <div>
+            <input class="bttn" type="button" value=">>" onclick="p8p()">
+          </div>
+          <h2>Pixel 8 Pro</h2>
+          <h2>Price: €499 </h2>
+           <table>
+              <tr>
+              <td>Battery:</td>
+              <td>5050 mAh</td>
+              </tr>
+              <tr>
+              <td>Storage:</td>
+              <td>128 GB</td>
+              </tr>
+              <tr>
+              <td>Display:</td>
+              <td>6.7" 2992 x 1344</td>
+              </tr>
+              <tr>
+              <td>Main camera:</td>
+              <td>50.0 MP</td>
+              </tr>
+              <tr>
+              <td>Front Camera:</td>
+              <td>10.5 MP</td>
+              </tr>
+            </table>
+            <p><button class="bttn" onClick="stock1()">Check stock</button></p>
+            <p>  <span style=color:green id="stock1" >-</span></p>
+            <p><button class="bttn"  onClick="addCart1()">Add to Cart</button></p>
           </a>
-
-          <a><img src="samsung-galaxy-s23-1677847465.webp" alt="Pixel 8" style="height:  300px; width: auto;">
-            <p><button  onClick="stock2()">Check stock</button></p>
-            <p>  <span style=color:green id="stock2" > </span></p>
+          <a> 
+          <img id="p8" src="pixel-8.avif" alt="Pixel 8" title="Pixel 8" style="height:  300px; width: auto;">
+          <div>
+            <input class="bttn" type="button" value=">>" onclick="p8()">
+          </div>
+          <h2>Pixel 8</h2> 
+          <h2>Price: €315 </h2> 
+          <table>
+            <tr>
+              <td>Battery:</td>
+              <td>4575 mAh</td>
+            </tr>
+            <tr>
+              <td>Storage:</td>
+              <td>128 GB / 256 GB</td>
+            </tr>
+            <tr>
+              <td>Display:</td>
+              <td>6.2" 2400 x 1080</td>
+            </tr>
+            <tr>
+              <td>Main camera:</td>
+              <td>50.0 MP</td>
+            </tr>
+            <tr>
+              <td>Front Camera:</td>
+              <td>10.5 MP</td>
+            </tr>
+          </table>
+          <p><button class="bttn" onClick="stock2()">Check stock</button></p>
+            <p>  <span style=color:green id="stock2" >-</span></p>
+            <p><button class="bttn"  onClick="addCart2()">Add to Cart</button></p>
           </a>
-          
-        <a><img src="samsung-galaxy-s23-1677847465.webp" alt="Pixel 7 Pro" style="height:  300px; width: auto;">
-          <p><button  onClick="stock3()">Check stock</button></p>
-          <p>  <span style=color:green id="stock3" > </span></p>
+          <a>  
+        <img id="p7p" src="pixel-7-pro.avif" alt="Pixel 7 Pro" title="Pixel 7 Pro" style="height:  300px; width: auto;">
+        <div>
+          <input class="bttn" type="button" value=">>" onclick="p7p()">
+        </div>
+        <h2>Pixel 7 Pro</h2>
+        <h2>Price: €273 </h2>  
+        <table>
+          <tr>
+            <td>Battery:</td>
+            <td>5000 mAh</td>
+          </tr>
+          <tr>
+            <td>Storage:</td>
+            <td>128 GB / 256 GB / 512 GB</td>
+          </tr>
+          <tr>
+            <td>Display:</td>
+            <td>6.7" 3120 x 1440</td>
+          </tr>
+          <tr>
+            <td>Main camera:</td>
+            <td>50.0 MP</td>
+          </tr>
+          <tr>
+            <td>Front Camera:</td>
+            <td>10.8 MP</td>
+          </tr>
+        </table>
+        <p><button class="bttn" onClick="stock3()">Check stock</button></p>
+          <p>  <span style=color:green id="stock3" >-</span></p>
+          <p><button class="bttn"   onClick="addCart3()">Add to Cart</button></p>
         </a>
           <script src="EFpage.js"> </script>
       </div>
 
+    
+     
 
-
-
-<br><br><br><br><br><br><br><br>
-<div class="contact">
-    <section id="Contact"></section> 
-    <br>
-    123 Place Rd, <br>
-    Somewhere,<br>
-    Overtherainbow, IRL 
-    <br><br><br>
-    +353 87 1234567
-     <br>
-    <a href="mailto:phones@gmail.com"> phones@gmail.com</a>
-</section> 
-</div>
-
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+    
 <footer class="footer">
-<i>Evan, Denys, Fionan</i> © 2024
+<i>Evan Farrell</i> © 2024
 </footer>
 </body>
 </html>
